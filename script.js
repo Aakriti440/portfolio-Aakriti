@@ -1,6 +1,3 @@
-// -------------------------------
-// MOBILE NAVIGATION
-// -------------------------------
 const menuButton = document.getElementById("menu-button");
 const navLinks = document.getElementById("nav-links");
 
@@ -9,9 +6,6 @@ menuButton.addEventListener("click", () => {
   menuButton.textContent = navLinks.classList.contains("open") ? "✕" : "☰";
 });
 
-// -------------------------------
-// SCROLL PROGRESS BAR
-// -------------------------------
 const progressBar = document.getElementById("scroll-progress");
 
 window.addEventListener("scroll", () => {
@@ -21,9 +15,6 @@ window.addEventListener("scroll", () => {
   progressBar.style.width = progress + "%";
 });
 
-// -------------------------------
-// CONTACT FORM HANDLING
-// -------------------------------
 const contactForm = document.getElementById("contact-form-id");
 const formMessage = document.getElementById("form-message");
 
